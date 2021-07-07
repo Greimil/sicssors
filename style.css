@@ -112,3 +112,57 @@ footer{
     font-size: 20PX;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .piedra{
+        width: 100px;
+        height: 53px;
+    }
+
+    .piedra:hover{
+        width: 150px;
+        height: 97px;
+    }
+
+    .tijera{
+        width: 100px;
+        height: 98px;
+        
+    }
+    
+    
+    .tijera:hover{
+        width: 150px;
+        height: 148px;
+    }
+
+    .papel{
+        width: 100px;
+        height: 62px;
+        
+    }
+    
+    .papel:hover{
+        width: 150px;
+        height: 112px;
+    }
+
+    body{
+        font-size: 12px;
+    }
+
+    .subpantalla{
+        font-size: 18px;
+    }
+
+    #ResultadoFinal{
+        font-size: 16px;
+    }
+
+    footer{
+        font-size: 18px ;
+    }
+
+
+}
