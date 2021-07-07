@@ -100,3 +100,15 @@ footer{
     bottom: 0px;
     font-weight: 900;
 }
+
+#contadorRounds{
+    text-align: center;
+    font-size: 34PX;
+    font-weight: 700;
+}
+
+#ResultadoFinal{
+    text-align: center;
+    font-size: 20PX;
+    font-weight: 700;
+}
