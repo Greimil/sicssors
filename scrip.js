@@ -52,7 +52,7 @@ function playRound(computerSelection, playerSelection){
         return "nobody Wins, both select rock"
     }
 }
-
+    
 function game(){
    let resultado 
     for (let i = 0; i < 5; i++) {
