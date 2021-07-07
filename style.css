@@ -34,7 +34,7 @@ main{
 .img-container{
    display: flex;
    justify-content: center;
-    margin-top: 100px;
+    margin-top: 1px;
    
 }
 
@@ -83,6 +83,8 @@ main{
 
 
 .round{
+    margin-top: 1px;
+    margin-bottom: 1px;
     text-align: center;
     font-size: 24PX;
     font-weight: 700;
@@ -105,12 +107,17 @@ footer{
     text-align: center;
     font-size: 34PX;
     font-weight: 700;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
 }
 
 #ResultadoFinal{
     text-align: center;
     font-size: 20PX;
     font-weight: 700;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -164,5 +171,6 @@ footer{
         font-size: 18px ;
     }
 
-
 }
+
+
