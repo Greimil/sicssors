@@ -5,9 +5,6 @@ let victoPlayer = 0
 let victocomputador = 0
 let respuesta
 
-
-
-
 const resultadoFinal = document.getElementById("ResultadoFinal")
 const rounds = document.getElementById("Rounds")
 const contadorRounds = document.getElementById("contadorRounds")
@@ -53,7 +50,6 @@ window.addEventListener("click",(e) =>{
 
 
 })
-
 
 
 
