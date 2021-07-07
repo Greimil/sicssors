@@ -1,3 +1,14 @@
+window.addEventListener("click",(e) =>{
+    playerSelection = e.target.id
+    if(!playerSelection) return 
+    console.log(game(computerSelection, playerSelection))
+    console.log(computerSelection, "seleccion de la computadora")
+
+})
+
+
+
+
 function computerPlay(){
     let numRamdon = Math.round(Math.random() * 2 )
     if(numRamdon == 0){
@@ -10,7 +21,7 @@ function computerPlay(){
 }
 
 let computerSelection = computerPlay()
-let playerSelection = prompt("Paper, Rock, scissor").toLowerCase()
+let playerSelection = "rock"
 
 
 
@@ -38,14 +49,15 @@ function playRound(computerSelection, playerSelection){
     } else if(playerSelection == "rock" && computerSelection == "scissor"){
         return "You win, rock beats scissor"
     } else if(playerSelection == "rock" && computerSelection == "rock"){
-        return "nobody Wins, both select scissor"
+        return "nobody Wins, both select rock"
     }
 }
 
-console.log(computerSelection, "computer selection")
-console.log(playerSelection, "player selection")
-
-
-console.log(playRound(computerSelection,playerSelection))
-
-
+function game(){
+   let resultado 
+    for (let i = 0; i < 5; i++) {
+     resultado =  playRound(computerSelection,playerSelection)
+        return resultado
+    }
+   
+}
