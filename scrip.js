@@ -1,5 +1,5 @@
 window.addEventListener("click",(e) =>{
-    playerSelection = e.target.id
+    playerSelection = e.target.id 
     if(!playerSelection) return 
     console.log(game(computerSelection, playerSelection))
     console.log(computerSelection, "seleccion de la computadora")
@@ -9,7 +9,7 @@ window.addEventListener("click",(e) =>{
 
 
 
-function computerPlay(){
+function computerPlay(){ 
     let numRamdon = Math.round(Math.random() * 2 )
     if(numRamdon == 0){
         return "rock"
@@ -21,7 +21,7 @@ function computerPlay(){
 }
 
 let computerSelection = computerPlay()
-let playerSelection = "rock"
+let playerSelection 
 
 
 
