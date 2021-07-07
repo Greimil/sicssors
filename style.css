@@ -128,8 +128,8 @@ footer{
     }
 
     .piedra:hover{
-        width: 150px;
-        height: 97px;
+        width: 120px;
+        height: 67px;
     }
 
     .tijera{
@@ -140,8 +140,8 @@ footer{
     
     
     .tijera:hover{
-        width: 150px;
-        height: 148px;
+        width: 120px;
+        height: 118px;
     }
 
     .papel{
@@ -151,8 +151,8 @@ footer{
     }
     
     .papel:hover{
-        width: 150px;
-        height: 112px;
+        width: 120px;
+        height: 82px;
     }
 
     body{
