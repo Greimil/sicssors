@@ -1,8 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: black;
-    color: azure;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-family: 'Shadows Into Light', cursive;
     
@@ -34,7 +34,7 @@ main{
 .img-container{
    display: flex;
    justify-content: center;
-    margin-top: 1px;
+    margin-top: 10px;
    
 }
 
@@ -95,6 +95,7 @@ main{
     text-align: center;
     margin-top: 30px;
     font-weight: 700;
+    display: block;
 }
 
 footer{
@@ -119,6 +120,21 @@ footer{
     margin-top: 1px;
     margin-bottom: 1px;
 }
+
+.span-screen {
+    padding-top: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.span-screen img {
+    width: 80px;
+    height: auto;
+}
+
+
 
 @media only screen and (max-width: 600px) {
 
